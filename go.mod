@@ -1,4 +1,4 @@
-module github.com/worlvlhole/clamav
+module github.com/worlvlhole/clamav-plugin
 
 require (
 	github.com/Unknwon/goconfig v0.0.0-20181105214110-56bd8ab18619 // indirect
