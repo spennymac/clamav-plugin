@@ -23,7 +23,7 @@ const (
 	envPrefix     = "MAL"
 )
 
-func main() {	//Setup Logger
+func main() {	
 	log.SetFormatter(&log.JSONFormatter{})
 	hook, err := lSyslog.NewSyslogHook("", "", syslog.LOG_DEBUG, "virustotal")
 	if err != nil {
