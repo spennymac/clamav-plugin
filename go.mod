@@ -23,4 +23,3 @@ require (
 	google.golang.org/api v0.0.0-20181113174939-c5e41677a12e // indirect
 )
 
-replace github.com/worlvlhole/maladapt => ../../maladapt
