@@ -5,8 +5,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/worlvlhole/maladapt/internal/digests"
 	"github.com/worlvlhole/maladapt/internal/model"
+	"github.com/worlvlhole/maladapt/pkg/digests"
 )
 
 //Type message type
