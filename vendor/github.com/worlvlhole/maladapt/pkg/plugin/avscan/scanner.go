@@ -104,13 +104,13 @@ func (s Scanner) Scan(scan ipc.Scan) (plugins.Result, error) {
 		return plugins.Result{}, err
 	}
 
-	logger.Warning("Initiating scan")
+	logger.Info("Initiating scan")
 	res, err := s.scan(ctx, file.Name())
 	if err != nil {
 		logger.Error(err)
 		return plugins.Result{}, err
 	}
-	logger.Warning("Scan complete")
+	logger.Info("Scan complete")
 
 	return res, nil
 }
