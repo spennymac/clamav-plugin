@@ -3,10 +3,10 @@ package model
 import (
 	"time"
 
+	"github.com/google/uuid"
 	"github.com/worlvlhole/maladapt/internal/token/policy"
 
-	"github.com/google/uuid"
-	"github.com/worlvlhole/maladapt/internal/digests"
+	"github.com/worlvlhole/maladapt/pkg/digests"
 )
 
 const (
